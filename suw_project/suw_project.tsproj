@@ -3,6 +3,9 @@
 	<DataTypes/>
 	<Project ProjectGUID="{8FD9FE01-21D1-454B-B84D-6EB3AEC7E5E1}" TargetNetId="157.158.57.47.1.1">
 		<System>
+			<Settings>
+				<Debugger Priority="61"/>
+			</Settings>
 			<Licenses>
 				<Target>
 					<ManualSelect>{BDCC0070-42D5-49AE-ABF1-1D4434813D60}</ManualSelect>
@@ -93,49 +96,13 @@
 								<AreaNo AreaType="InputDst">0</AreaNo>
 								<Name>Inputs</Name>
 								<ContextId>1</ContextId>
-								<ByteSize>12</ByteSize>
-								<Symbol>
-									<Name>Value</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>0</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Status</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>32</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Data</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>64</BitOffs>
-								</Symbol>
+								<ByteSize>0</ByteSize>
 							</DataArea>
 							<DataArea>
 								<AreaNo AreaType="OutputSrc">1</AreaNo>
 								<Name>Outputs</Name>
 								<ContextId>1</ContextId>
-								<ByteSize>12</ByteSize>
-								<Symbol>
-									<Name>Value</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>0</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Control</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>32</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Data</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>64</BitOffs>
-								</Symbol>
+								<ByteSize>0</ByteSize>
 							</DataArea>
 						</DataAreas>
 						<InterfacePointers>
@@ -268,49 +235,13 @@
 								<AreaNo AreaType="InputDst">0</AreaNo>
 								<Name>Inputs</Name>
 								<ContextId>1</ContextId>
-								<ByteSize>12</ByteSize>
-								<Symbol>
-									<Name>Value</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>0</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Status</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>32</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Data</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>64</BitOffs>
-								</Symbol>
+								<ByteSize>0</ByteSize>
 							</DataArea>
 							<DataArea>
 								<AreaNo AreaType="OutputSrc">1</AreaNo>
 								<Name>Outputs</Name>
 								<ContextId>1</ContextId>
-								<ByteSize>12</ByteSize>
-								<Symbol>
-									<Name>Value</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>0</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Control</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>32</BitOffs>
-								</Symbol>
-								<Symbol>
-									<Name>Data</Name>
-									<BitSize>32</BitSize>
-									<BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-									<BitOffs>64</BitOffs>
-								</Symbol>
+								<ByteSize>0</ByteSize>
 							</DataArea>
 						</DataAreas>
 						<InterfacePointers>

@@ -71,35 +71,11 @@
           <AreaNo AreaType="InputDst">0</AreaNo>
           <Name>Inputs</Name>
           <ContextId>1</ContextId>
-          <Symbol>
-            <Name>Value</Name>
-            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-          </Symbol>
-          <Symbol>
-            <Name>Status</Name>
-            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-          </Symbol>
-          <Symbol>
-            <Name>Data</Name>
-            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-          </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="OutputSrc">1</AreaNo>
           <Name>Outputs</Name>
           <ContextId>1</ContextId>
-          <Symbol>
-            <Name>Value</Name>
-            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-          </Symbol>
-          <Symbol>
-            <Name>Control</Name>
-            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-          </Symbol>
-          <Symbol>
-            <Name>Data</Name>
-            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
-          </Symbol>
         </DataArea>
       </DataAreas>
       <InterfacePointers>
