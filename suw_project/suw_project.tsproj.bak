@@ -3,6 +3,9 @@
 	<DataTypes/>
 	<Project ProjectGUID="{8FD9FE01-21D1-454B-B84D-6EB3AEC7E5E1}" TargetNetId="157.158.57.47.1.1">
 		<System>
+			<Settings>
+				<Debugger Priority="61"/>
+			</Settings>
 			<Licenses>
 				<Target>
 					<ManualSelect>{BDCC0070-42D5-49AE-ABF1-1D4434813D60}</ManualSelect>
