@@ -240,7 +240,7 @@
 								<AreaNo AreaType="Standard">4</AreaNo>
 								<Name>DataFromOPC</Name>
 								<ContextId>1</ContextId>
-								<ByteSize>6</ByteSize>
+								<ByteSize>7</ByteSize>
 								<Symbol CreateSymbol="true">
 									<Name>MAKS_TEMP_WODY</Name>
 									<Comment>
@@ -279,6 +279,21 @@
 										</Property>
 									</Properties>
 									<BitOffs>32</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>RESET_ZLICZ_IMP_PRZEP</Name>
+									<Comment>
+										<![CDATA[Reset zliczanych impulsów przepływu cieczy]]>
+									</Comment>
+									<BitSize>8</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>48</BitOffs>
 								</Symbol>
 							</DataArea>
 						</DataAreas>
