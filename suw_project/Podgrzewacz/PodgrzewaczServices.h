@@ -44,7 +44,7 @@ typedef struct _PodgrzewaczModuleInputs
 typedef struct _PodgrzewaczModuleDataToOPC
 {
 	SHORT NR_KROKU;
-	SHORT AKTUALNY_CZAS_SCH?ADZANIA;
+	SHORT AKTUALNY_CZAS_SCHLADZANIA;
 } PodgrzewaczModuleDataToOPC, *PPodgrzewaczModuleDataToOPC;
 
 typedef struct _PodgrzewaczModuleDataFromOPC

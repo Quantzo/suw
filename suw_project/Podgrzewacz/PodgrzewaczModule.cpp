@@ -178,6 +178,7 @@ HRESULT CPodgrzewaczModule::CycleUpdate(ITcTask* ipTask, ITcUnknown* ipCaller, U
 
 	// TODO: Replace the sample with your cyclic code
 	m_DataToOPC.NR_KROKU = 0;
+	
 
 	return hr;
 }

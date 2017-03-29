@@ -224,7 +224,7 @@
 									<BitOffs>0</BitOffs>
 								</Symbol>
 								<Symbol CreateSymbol="true">
-									<Name>AKTUALNY_CZAS_SCHŁADZANIA</Name>
+									<Name>AKTUALNY_CZAS_SCHLADZANIA</Name>
 									<BitSize>16</BitSize>
 									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
 									<Properties>

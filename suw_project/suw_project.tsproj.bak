@@ -93,16 +93,193 @@
 						</Parameters>
 						<DataAreas>
 							<DataArea>
-								<AreaNo AreaType="InputDst">0</AreaNo>
-								<Name>Inputs</Name>
-								<ContextId>1</ContextId>
-								<ByteSize>0</ByteSize>
-							</DataArea>
-							<DataArea>
-								<AreaNo AreaType="OutputSrc">1</AreaNo>
+								<AreaNo AreaType="OutputSrc">0</AreaNo>
 								<Name>Outputs</Name>
 								<ContextId>1</ContextId>
-								<ByteSize>0</ByteSize>
+								<ByteSize>4</ByteSize>
+								<Symbol CreateSymbol="true">
+									<Name>_20GKQ01AA101</Name>
+									<Comment>
+										<![CDATA[ZAWÓR ODCINAJĄCY WODĘ SIECIOWĄ 70°C 1-OTWARTY]]>
+									</Comment>
+									<BitSize>8</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>0</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>_20GKQ01AA102</Name>
+									<Comment>
+										<![CDATA[ZAWÓR ODWADNIAJĄCY WYMIENNIK CIEPŁA 1-OTWARTY]]>
+									</Comment>
+									<BitSize>8</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>8</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>_20GKQ01AA250</Name>
+									<Comment>
+										<![CDATA[ZAWÓR REGULACYJNY WODY SIECIOWEJ 70°C 4-20mA]]>
+									</Comment>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>16</BitOffs>
+								</Symbol>
+							</DataArea>
+							<DataArea>
+								<AreaNo AreaType="InputSrc">1</AreaNo>
+								<Name>Inputs</Name>
+								<ContextId>1</ContextId>
+								<ByteSize>7</ByteSize>
+								<Symbol CreateSymbol="true">
+									<Name>_20GKQ01CT201</Name>
+									<Comment>
+										<![CDATA[TT01 TEMPERATURA WODY PRZED WYMIENNIKIEM CIEPŁA 4-20mA]]>
+									</Comment>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>0</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>_20GKQ01CT202</Name>
+									<Comment>
+										<![CDATA[TT02 TEMPERATURA WODY ZA PODGRZEWACZEM 4-20mA]]>
+									</Comment>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>16</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>_20GBB01CF201_IMP</Name>
+									<Comment>
+										<![CDATA[PRZEPŁYW WODY PO WYMIENNIKU CIEPŁA 10l/impuls]]>
+									</Comment>
+									<BitSize>8</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+									<BitOffs>32</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>_20GBB01CF201_m3</Name>
+									<Comment>
+										<![CDATA[PRZEPŁYW WODY PO WYMIENNIKU CIEPŁA 0-70 m3/h]]>
+									</Comment>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>Property1</Name>
+										</Property>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>40</BitOffs>
+								</Symbol>
+							</DataArea>
+							<DataArea>
+								<AreaNo AreaType="Standard">3</AreaNo>
+								<Name>DataToOPC</Name>
+								<ContextId>1</ContextId>
+								<ByteSize>4</ByteSize>
+								<Symbol CreateSymbol="true">
+									<Name>NR_KROKU</Name>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>0</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>AKTUALNY_CZAS_SCHLADZANIA</Name>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>16</BitOffs>
+								</Symbol>
+							</DataArea>
+							<DataArea>
+								<AreaNo AreaType="Standard">4</AreaNo>
+								<Name>DataFromOPC</Name>
+								<ContextId>1</ContextId>
+								<ByteSize>6</ByteSize>
+								<Symbol CreateSymbol="true">
+									<Name>MAKS_TEMP_WODY</Name>
+									<Comment>
+										<![CDATA[Za podgrzewaczem]]>
+									</Comment>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>0</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>MAKS_CZAS_SCHLADZANIA</Name>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>16</BitOffs>
+								</Symbol>
+								<Symbol CreateSymbol="true">
+									<Name>ZAL_FAZY</Name>
+									<BitSize>16</BitSize>
+									<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+									<Properties>
+										<Property>
+											<Name>OPC.UA.DA</Name>
+											<Value>1</Value>
+										</Property>
+									</Properties>
+									<BitOffs>32</BitOffs>
+								</Symbol>
 							</DataArea>
 						</DataAreas>
 						<InterfacePointers>
